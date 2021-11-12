@@ -52,5 +52,5 @@ while i<len(question_list):
         print("Your answer is wrong😔😔")
         print("You can play again😊😊")
         print("You win🥳🎊🎉 Rs/",money,"💵💵")
-        # break
+        break
     i+=1
