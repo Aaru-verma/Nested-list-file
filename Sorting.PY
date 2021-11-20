@@ -26,3 +26,34 @@ while i < len(a):
     i+=1
 print(a)
 
+
+
+# a=[1,4,7,8,3,6,17,20,12,15]
+# a.sort()
+# print(a)
+
+
+
+# a=[1,4,7,8,3,6,17,20,12,15]
+# a.sort()
+# i=0
+# while i<len(a):
+#     i+=1
+# print(a)
+
+
+
+# a=[1,4,7,8,3,6,17,20,12,15]
+# a.sort()
+# for i in a:
+#     print(i)
+
+
+
+# a=[1,4,7,8,3,6,17,20,12,15]
+# a.sort(reverse=True)
+# i=0
+# while i<len(a):
+#     i+=1
+# print(a)
+
