@@ -40,7 +40,7 @@ while i<len(question_list):
         k=options_list[i][j]
         print(j+1,k)
         j+=1
-    if count<1:
+    if count<2:
         n1=input("Do you want Lifeline?")
         if n1=="yes":
             count+=1
