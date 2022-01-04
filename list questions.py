@@ -1,171 +1,173 @@
-# list1 =[[ 94, 86, 88],[71, 98, 65],[95, 45, 78]]
-# i=0
-# sum=0
-# while i<len(list1):
-#     j=0
-#     while j<len(list1[i]):
-#         if j==0:
-#            sum=sum+list1[i][j]
-#         j=j+1
-#     i+=1
-# print(sum)   
-
-
-# a =[1, 2, 10,[4, 19, 20],7]
-# i=0
-# b=[]
-# while i<len(a):
-#     if type(a)==b:
-#         j=0
-#         while j<len(a[i]):
-#             b.append(a[i][j])
-#             j+=1
-#     else:
-#         b.append(a[i])
-#     i+=1
-# c=0
-# sum=0
-# while c<len(b):
-#     sum=sum+a[c]
-#     c+=1
-# print(sum)
-
-
-    # b=a[i]
-    # j=0
-    # while j<len(b[i]):
-    #     if type(b) is a:
-    #         sum+=b[i][j]
-    #         j+=1
-    #     else:
-    #         sum+=b[i][j]
-    #     i+=1
-    # print(sum)
+list1 =[[ 94, 86, 88],[71, 98, 65],[95, 45, 78]]
+i=0
+sum=0
+while i<len(list1):
+    j=0
+    while j<len(list1[i]):
+        if j==0:
+           sum=sum+list1[i][j]
+        j=j+1
+    i+=1
+print(sum)   
 
 
 
 
+a =[1, 2, 10,[4, 19, 20],7]
+i=0
+b=[]
+while i<len(a):
+    if type(a)==b:
+        j=0
+        while j<len(a[i]):
+            b.append(a[i][j])
+            j+=1
+    else:
+        b.append(a[i])
+    i+=1
+c=0
+sum=0
+while c<len(b):
+    sum=sum+a[c]
+    c+=1
+print(sum)
 
-# num=[[1,2,3],[4,5,6],[7,8,9]]
-# i=0
-# s=0
-# s1=0
-# s2=0
-# while i < len(num):
-#     j = 0 
-#     while j < len(num[i]):
-#         if num[i][j]==0:
-#             s = s+num[i][j]
-#         j+=1
-#     i+=1
-#     print(s)
 
-
-
-
-# num=[[1,2,3],[4,5,6],[7,8,9]]
-# i=0
-# s=0
-# while i<len(num):
-#     j=0
-#     while j<len(num):
-#         b=num[i][j]+num[i][j]
-#         s=s+num[i][j]
-#         j+=1
-#     i+=1
-#     print(s)
+    b=a[i]
+    j=0
+    while j<len(b[i]):
+        if type(b) is a:
+            sum+=b[i][j]
+            j+=1
+        else:
+            sum+=b[i][j]
+        i+=1
+    print(sum)
 
 
 
 
 
-# a=["aaru"]
-# print(a)
-
-# a=["string",12,True]
-# i=0
-# while i<=len(a):
-#     temp=type(a[i])
-#     print(temp)
-#     i=i+1
-# print(type(a[0]))
-# print(type(a[1]))
-# print(type(a[2]))
-
-# a=list(input("enter the items:-"))
-# i=0
-# while i<len(a):
-#     if type(a[i])==type(a):
-#         print(type(a[i]))
-#     i+=1
+num=[[1,2,3],[4,5,6],[7,8,9]]
+i=0
+s=0
+s1=0
+s2=0
+while i < len(num):
+    j = 0 
+    while j < len(num[i]):
+        if num[i][j]==0:
+            s = s+num[i][j]
+        j+=1
+    i+=1
+    print(s)
 
 
 
 
-
-# a=[1,2,3,[4,5,6],2,3]
-# i=0
-# s=0
-# while i<len(a):
-#     if i==3:
-#         j=0
-#         sum=0
-#         while j<len(a[i]):
-#             sum+=a[i][j]
-#             j+=1
-#     else:
-#         s+=a[i]
-#     i+=1
-# print(sum+s)
+num=[[1,2,3],[4,5,6],[7,8,9]]
+i=0
+s=0
+while i<len(num):
+    j=0
+    while j<len(num):
+        b=num[i][j]+num[i][j]
+        s=s+num[i][j]
+        j+=1
+    i+=1
+    print(s)
 
 
 
 
 
+a=["aaru"]
+print(a)
+
+a=["string",12,True]
+i=0
+while i<=len(a):
+    temp=type(a[i])
+    print(temp)
+    i=i+1
+print(type(a[0]))
+print(type(a[1]))
+print(type(a[2]))
+
+a=list(input("enter the items:-"))
+i=0
+while i<len(a):
+    if type(a[i])==type(a):
+        print(type(a[i]))
+    i+=1
 
 
 
-# Count unique values inside a list.
-# input_list = [1, 2, 2, 5, 8, 4, 4, 8]
-# list=[]
-# i=0
-# while i < len(input_list):
-#     if input_list[i] not in list:
-#         list.append(input_list[i])
-#     i+=1
-# print(list)
+
+
+a=[1,2,3,[4,5,6],2,3]
+i=0
+s=0
+while i<len(a):
+    if i==3:
+        j=0
+        sum=0
+        while j<len(a[i]):
+            sum+=a[i][j]
+            j+=1
+    else:
+        s+=a[i]
+    i+=1
+print(sum+s)
 
 
 
 
 
-# numbers = [50, 40, 23, 70, 56, 12, 5, 10, 7]
-# i=0
-# a=numbers[0]
-# b=0
-# while i<len(numbers):
-#     if numbers[i]>a:
-#         b=a
-#         a=numbers[i]
-#     elif numbers[i]>b and a!=numbers[i]:
-#         b=numbers[i]
-#     i+=1
-# print(b)
+
+
+
+Count unique values inside a list.
+input_list = [1, 2, 2, 5, 8, 4, 4, 8]
+list=[]
+i=0
+while i < len(input_list):
+    if input_list[i] not in list:
+        list.append(input_list[i])
+    i+=1
+print(list)
+
+
+
+
+
+numbers = [50, 40, 23, 70, 56, 12, 5, 10, 7]
+i=0
+a=numbers[0]
+b=0
+while i<len(numbers):
+    if numbers[i]>a:
+        b=a
+        a=numbers[i]
+    elif numbers[i]>b and a!=numbers[i]:
+        b=numbers[i]
+    i+=1
+print(b)
 
 
     
 
 
 
-# name=["poonam","tina","Aaru","pooja","Aachuki","Daksh"]
-# i=0
-# while i<len(name):
-#     if len(name[i])%2==0:
-#         print(len(name[i]),":-","even","=",name[i])
-#     else:
-#         print(len(name[i]),":-","odd","=",name[i])
-#     i+=1
-# # print((name[i]))
+name=["poonam","tina","Aaru","pooja","Aachuki","Daksh"]
+i=0
+while i<len(name):
+    if len(name[i])%2==0:
+        print(len(name[i]),":-","even","=",name[i])
+    else:
+        print(len(name[i]),":-","odd","=",name[i])
+    i+=1
+# print((name[i]))
 
 
 
@@ -399,3 +401,17 @@ print(a)
 #     j+=1
 #     print(a[-j],end=" ")
     
+    
+    
+    
+    
+# a=[3,5,7,7,9,6,8]
+# b=[]
+# i=0
+# while i < len(a):
+#     c=a[i]
+#     n=3
+#     b.append(c)
+#     b.append(n)
+#     i+=1
+# print(b)
